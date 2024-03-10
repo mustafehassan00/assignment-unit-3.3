@@ -11,12 +11,14 @@ console.log(partsNeeded);
 // 2. Create a variable called 'supplyChanges' whose value is an array containing
 //    the following numbers: 3, 5, -6, 0, 7, 11.
 console.log('2. Create supplyChanges:');
-
+let supplyChanges=[3,5,-6,0,7,11];
+console.log(supplyChanges);
 
 // 3. Create a variable called 'secondItem' and assign it the value of the second
 //    item in the 'supplyChanges' array.
 console.log('3. Access the second value of supplyChanges:');
-
+let secondItem=supplyChanges[1];
+console.log(secondItem);
 
 // 4. The last value in the 'supplyChanges' array was added by mistake.
 //    Remove it from the array and store it inside a new variable called 'removedItem'.
